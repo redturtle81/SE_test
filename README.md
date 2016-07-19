@@ -1,4 +1,4 @@
-# GTFSParser
+# GTFS_Parser
 ============
 The goal of this project is to build a parser in Java which reads GTFS files and creates an engineered suitable POJO structure filled with the data.
 
