@@ -12,23 +12,24 @@ ECLIPSE Neon IDE has been used to implement this project.
 
 PROJECT LAYOUT:
 ===============
-goto Waynaut_test/src. Here there are 4 packages and an engineered_GTFS.java class.
+The original repository  contais 4 packages and an engineered_GTFS.java class.
 
 The package "engine" contains engineered_GTFS.java, the main controller class which contains main() 
 for execution of this project.
 
-The package "model" defines various pojo classes for storing the data objects from the GTFS files.
+The package "model" contains *_pojo.java files.
+This files defines defines various pojo classes for storing the data objects from the GTFS files.
 
 The package "MySqlDB_management" contains:
-"Unziptool" static class used to extract the "raw_data/GTFS.zip" file into "raw_data/GTFS".
+"UnzipTool.java" static class used to extract the "raw_data/GTFS.zip" file into "raw_data/GTFS".
 
-"ProcessingValue" static class used to process data in mysql database. 
+"ProcessingValue.java" static class used to process data in mysql database. 
 
-"MySQLConnection" java class used to get connection to MYSQL database.
+"MySQLConnection.java" java class used to get connection to MYSQL database.
 
 The data from database could be used for suitable objects creation in "object" package.
 
-The package "object":
+The package "object" contains Obt_*.java files.
 Classes in this package get data from MYSQL database and create objects of respective classes of "model" package.
 
 
