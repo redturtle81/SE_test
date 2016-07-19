@@ -12,15 +12,15 @@ ECLIPSE Neon IDE has been used to implement this project.
 
 PROJECT LAYOUT:
 ===============
-The original repository  contais 4 packages and an engineered_GTFS.java class.
+The original repository  contains 4 package.
 
-The package "engine" contains engineered_GTFS.java, the main controller class which contains main() 
+1) The package "engine" contains engineered_GTFS.java, the main controller class which contains main() 
 for execution of this project.
 
-The package "model" contains *_pojo.java files.
+2) The package "model" contains *_pojo.java files.
 This files defines defines various pojo classes for storing the data objects from the GTFS files.
 
-The package "MySqlDB_management" contains:
+3) The package "MySqlDB_management" contains:
 "UnzipTool.java" static class used to extract the "raw_data/GTFS.zip" file into "raw_data/GTFS".
 
 "ProcessingValue.java" static class used to process data in mysql database. 
@@ -29,7 +29,7 @@ The package "MySqlDB_management" contains:
 
 The data from database could be used for suitable objects creation in "object" package.
 
-The package "object" contains Obt_*.java files.
+4) The package "object" contains Obt_*.java files.
 Classes in this package get data from MYSQL database and create objects of respective classes of "model" package.
 
 
