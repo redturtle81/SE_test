@@ -41,7 +41,8 @@ PROJECT SETUP AND RUNNING THE PROJECT:
 ======================================
 Some initial setup is required to run this project.
 
-Make sure that Java 8 and MySql database has been properly installed onto your system. Make sure of granting the right permission to the user on the database.
+Make sure that Java 8 and MySql database has been properly installed onto your system. 
+Make sure of granting the right permission to the user on the database.
 The credential of the user for the database are:	userName = "gtfs_user";	password = "waynaut".
 
 Put the GTFS.zip file inside the "raw_data" folder.
