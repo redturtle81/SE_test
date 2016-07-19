@@ -41,16 +41,10 @@ PROJECT SETUP AND RUNNING THE PROJECT:
 ======================================
 Some initial setup is required to run this project.
 
-Clone this repository and put it into a directory.
-
 Make sure that Java 8 and MySql database has been properly installed onto your system. Make sure of granting the right permission to the user on the database.
-The credential of the user for the database are:
-	userName = "gtfs_user";
-	password = "waynaut";
+The credential of the user for the database are:	userName = "gtfs_user";	password = "waynaut";
+Put the GTFS.zip file inside the "raw_data" folder.
 
-Now, put the GTFS.zip file inside the "raw_data" folder.
-
-
-Now, run engineered_GTFS.main() to view the output, the structured content of the GTFS files.
+Run engineered_GTFS.main() to view the output, the structured content of the GTFS files.
 
 =============================================================================================================================
