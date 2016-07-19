@@ -2,7 +2,7 @@
 ============
 The goal of this project is to build a parser in Java which reads GTFS files and creates an engineered suitable POJO structure filled with the data.
 
-Result: Automatic population of a mysql database with GTFS files.
+Result: Automatic population of a mysql database with GTFS files, creation of suitable pojo structure filled with the data.
 
 MySql is used to create a database and populate it with the pieces of information extracted from the GTFS.
 
